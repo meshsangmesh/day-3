@@ -1,0 +1,53 @@
+/*hero
+SCHOOL
+PUC
+DEGREE*/
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(176, 69, 69);
+}
+nav{
+   display: flex;
+   background-color: rgb(97, 32, 201);
+   color: rgb(110, 23, 23);
+   padding: 10px;
+   font-size: 20px;
+   gap: 20px;
+   position: fixed;
+}
+nav a{
+    color: yellow;
+    text-decoration: none;
+    font-weight: bolder;
+}
+nav a:hover{
+    color: black;
+}
+#hero{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(97, 32, 201);
+    font-family: cursive;
+    font-weight: bolder;
+
+}
+#hero img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+
+}
+#edu{
+    flex-direction: row;
+    margin: 10px;
+}
+#edu img{
+    width: auto;
+    height: 250px;
+    background-color: black;
+    padding: 10px;
+}
+#school{
+    background-color: chartreuse;
+}
